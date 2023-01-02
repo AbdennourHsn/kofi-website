@@ -9,6 +9,7 @@ import { ProfileDefaultComponent } from './pages/profile/profile-default/profile
 import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { SettingformComponent } from './components/settingform/settingform.component';
 
+
 const routes: Routes = [
   
   {
