@@ -1,0 +1,49 @@
+<div class="grid grid-cols-12 border-b-[1px]">
+    <div class="col-span-8 col-start-3 h-64 rounded-lg  bg-black">
+
+    </div>
+    <div class="col-span-8 col-start-3 grid grid-cols-10 ">
+        <div class="col-span-1 relative top-[-20px] ">
+            <img class="rounded-full " src="https://storage.ko-fi.com/cdn/useruploads/c322671b-df75-480b-8f44-c1414370d4be.png" alt="img-profile">
+        </div>
+        <div class="col-span-2">
+            <div class="font-bold pt-2 pl-4 text-lg text-[#26272a]">Yemlahi Soufiane</div>
+            <div class="pl-4 flex text-[#434b62]">
+                <div class="w-4 pt-1.5">
+                    <img class="w-4 " src="assets/IconsSvg/heart.svg" alt="icon-heart" srcset="">
+                </div>
+                <div class="pl-2">105 Supporters</div>
+            </div>
+        </div>
+        <div class="col-start-7 col-span-4 grid grid-cols-7 py-4">
+            <div class="col-start-3  col-span-3 text-white bg-[#5cb85c] font-bold text-lg  py-[5px] mr-2 grid justify-center  rounded-l-full rounded-r-full h-10  ">
+                <div class="flex">
+                    <div class="p-2">
+                        <img class="w-[25px] h-[16px]" src="https://storage.ko-fi.com/cdn/cup-border.png" alt="" srcset="">
+                    </div>
+                    Tip
+                </div>
+            </div>
+            <div class="col-span-2 py-[5px] border-2 border-black text-center rounded-l-full rounded-r-full h-10">follow</div>
+        </div>
+
+        <div class="col-span-3 grid grid-cols-4 gap-[10px] text-[#6b6c70] p-t-4 font-bold">
+            <div id="about" class="item">
+                <a (click)="setActiveItem('/profile/about')" routerLink="/profile/about" >About</a>
+            </div>
+            <div id="posts" class="item">
+                <a  (click)="setActiveItem('/profile/posts')" routerLink="/profile/posts">Posts</a>
+                
+            </div>
+            <div id="shop" class="item">
+                <a  (click)="setActiveItem('/profile/shop')" routerLink="/profile/shop">Shop</a>
+                
+            </div>
+            <div id="services" class="item">
+                <a  (click)="setActiveItem('/profile/services')" routerLink="/profile/services">Services</a>
+                
+            </div>
+        </div>
+    </div>
+
+</div>
